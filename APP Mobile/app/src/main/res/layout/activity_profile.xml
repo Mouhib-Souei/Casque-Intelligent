@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="@color/BT_BLUE"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".6"
+
+
+            >
+
+            <Spinner
+                android:id="@+id/idMASpinnerBTPairedDevices"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/white"
+                android:layout_height="match_parent">
+
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".4">
+
+            <Button
+                android:id="@+id/idMAButtonConnect"
+                android:layout_width="match_parent"
+                android:text="Connect"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/BT_BLUE"
+                android:layout_height="match_parent">
+
+            </Button>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="73">
+
+
+        <TextView
+            android:id="@+id/idMATextViewReceivedMessage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:scrollbars="vertical"
+
+            android:textSize="19dp"
+            android:gravity="bottom"
+            android:textColor="#19E819">
+
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="vertical"
+        android:background="@color/black">
+
+        <!--        first row of button
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:weightSum="100"
+            >
+
+
+            <Button
+                android:id="@+id/idMAButtonStoreData1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M1"
+                android:layout_weight="20"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/BT_BLUE">
+
+            </Button>
+
+            <Button
+                android:id="@+id/idMAButtonStoreData2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M2"
+                android:layout_weight="20"
+                android:textColor="@color/white"
+                android:layout_marginLeft="3dp"
+                android:backgroundTint="@color/BT_BLUE">
+
+            </Button>
+
+            <Button
+                android:id="@+id/idMAButtonStoreData3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M3"
+                android:textColor="@color/white"
+                android:layout_weight="20"
+                android:layout_marginLeft="3dp"
+                android:backgroundTint="@color/BT_BLUE">
+
+            </Button>
+
+            <Button
+                android:id="@+id/idMAButtonStoreData4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M4"
+                android:textColor="@color/white"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="20"
+                android:backgroundTint="@color/BT_BLUE">
+
+            </Button>
+
+            <Button
+                android:id="@+id/idMAButtonStoreData5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M5"
+                android:textColor="@color/white"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="20"
+                android:backgroundTint="@color/BT_BLUE">
+
+            </Button>
+
+
+
+        </LinearLayout>
+
+        -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:paddingTop="15dp"
+
+            >
+
+            <ImageButton
+                android:id="@+id/idMAButtonStoreData9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/BT_BLUE"
+                android:layout_weight="20"
+
+                app:srcCompat="@android:drawable/ic_menu_delete" />
+
+
+            <!--
+            <Button
+                android:id="@+id/idMAButtonStoreData6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M6"
+                android:textColor="@color/white"
+                android:layout_weight="20"
+                android:backgroundTint="@color/BT_BLUE">
+
+            </Button>
+
+            <Button
+                android:id="@+id/idMAButtonStoreData7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M7"
+                android:textColor="@color/white"
+                android:layout_weight="20"
+                android:layout_marginLeft="3dp"
+                android:backgroundTint="@color/BT_BLUE">
+
+            </Button>
+
+            <Button
+                android:id="@+id/idMAButtonStoreData8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="M8"
+                android:textColor="@color/white"
+                android:layout_weight="20"
+                android:layout_marginLeft="3dp"
+                android:backgroundTint="@color/BT_BLUE">
+
+            </Button>
+
+            -->
+
+            <!--
+
+            <ImageButton
+                android:id="@+id/idMAButtonStoreData9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/BT_BLUE"
+                android:layout_weight="20"
+                app:srcCompat="@android:drawable/ic_menu_delete" />
+
+            -->
+
+            <!--
+            <ImageButton
+                android:id="@+id/idMAButtonShare"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:layout_marginLeft="3dp"
+                android:backgroundTint="@color/BT_BLUE"
+                app:srcCompat="?attr/actionModeShareDrawable" />
+
+            -->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:id="@+id/idMAButtonShare"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="20"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="3dp"
+                android:paddingTop="15dp"
+                android:backgroundTint="@color/BT_BLUE"
+                app:srcCompat="?attr/actionModeShareDrawable" />
+
+
+            <!--
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".7"
+                >
+
+                <EditText
+                    android:id="@+id/idMAEditTextSendMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/black"
+                    android:background="#D2FFFFFF"
+                    android:hint="Enter your message"
+                    >
+
+                </EditText>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight=".3"
+                >
+
+
+                <ImageButton
+                    android:id="@+id/idMAButtonSendData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/BT_BLUE"
+                    app:srcCompat="@android:drawable/ic_menu_send" />
+            </LinearLayout>
+
+            -->
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
